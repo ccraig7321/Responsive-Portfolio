@@ -1,89 +1,60 @@
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+# Responsive Portfolio
 
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
+Get to kow me and find out who I am!
+___
 
+## Description
 
-## Directions
+In my responsive portfolio I created an interactive page that showcases my coding skills while giving the viewer the opportunity to learn a little bit more about who I am. The page has a number of features that give the user insight into the works I have produced and also has links enbedded into the page for further communication.
+___
 
-First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
+## How It Works
 
-* Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
+Upon clicking on the deployed link, the user will be greeted with an "About Me" page that contains a picture of myself as well as background information regarding who I am, what I am currently achieving, and my future goals. To create a uniform viewing experience, I was sure to link my background image, bootstrap, google fonts, CSS page, and font awesome into call three of my HTML pages. I also made sure to link each of the three HTML pages to each other to ensure that the links on the right of the navigation bar would be active each time the user wanted to go to a new page within the site.  I also redirected the page back to the home page using the name button located on the left side of the navigation bar. To make it more obvious for the user that it was a usable link, I changed the opacity on the hover to ensure that the user would know how to use this particular button.
 
-* Using Bootstrap, develop your portfolio site with the following items:
+On this opening page, I utilized bootstrap to form the navigation bar as well as format the container.  From there, I used both HTML and CSS to format the look of the box, the alignment of the picture, and layout of the text.
 
-   * A navbar
+![Image of ABOUT ME PAGE](Assets/Images/responsivePortfolioAboutMe.png)
 
-   * A responsive layout
+While on this page, the user has the option of navigating to either the Portfolio or Contact page as shown in the navigate bar. Another option the user can utilize at anytime are the links found in the footer of this page. The icons shown are direct links to my personal GitHub page, Linked In page, email, and technical resume. This was achieved by using a-tags to define the links and enter the font awesome icons. From there, I updated the CSS page to make the icons larger, align them properly in the footer, and create a hover affect.
 
-   * Responsive images
+![IMAGE of FOOTER](Assets/Images/responsivePortfolioFooter.png)
 
-* The Bootstrap portfolio should minimize the use of media queries.
+The next logical step for the user would be to go to the Portfolio page. This is a showcase of some of the projects, homework assignments, and activities I have completed throughout this class. I used the bootstrap panel class to create the white box that contained my works. To create the assignment boxes, I used CSS to create the shape I wanted and HTML to add in the images.  I also placed an overlay over each image that contains the name of each project.  In order to create a better visual experience, I set the opacity to only 90% to begin and reduced the font size and opacity even more when the user hovers over the overlay.  Not only are these images layed out well by working with the grid system available through bootstrap, they are also working links that will take the user to each separate project.  I used "target='_blank' " to open up an new HTML page once the link is selected in order to not interrupt the user experience.
 
-* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
+![IMAGE of PORTFOLIO](Assets/Images/responsivePortfolioCards.png)
 
-### Hints
+The last page for the user to view is the Contact page.  This page give the user the opportunity to enter in their name, email address, and a message to be sent to me through email. I created a "Submit" button that is set to link to my personal email account. Once again, I utilized the panel class in bootstrap to create the display box, but I also experimented with a variety of form-tags to create the large and small rectangular boxes shown.  Another aspect I incorporated was the use of placeholders to give the user a better understanding of what to write in each of the boxes.
 
-* Use Bootstrap's grid system (containers, rows, and columns).
+![IMAGE of CONTACT](Assets/Images/responsivePortfolioContactMe.png)
 
-* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
+Other updates for this assignment included an updated technical resume, updated GitHub profile with links to this project, updated LinkedIn profile, and showcasing of pins on GitHub.
 
-* Use an HTML validation service to ensure that each page has valid HTML.
+___
 
-### Minimum Requirements
+## Link to Project
 
-* Functional, deployed application
+https://ccraig7321.github.io/Responsive-Portfolio/
 
-* GitHub repository with README describing the project
+___
 
-* Navbar must be consistent on each page.
+## Technologies
 
-* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
+- HTML
+- CSS
+- Bootstrap
+- Font Awesome
+- Google Fonts
+- Visual Studio Code
 
-* All links must work.
+___
 
-* Must use semantic html.
+### License
 
-* Each page must have valid and correct HTML. (use a validation service)
+Copyright 2020 CHELSEY CRAIG
 
-* Must contain your personalized information. (bio, name, images, links to social media, etc.)
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-* Must properly utilize Bootstrap components and grid system.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-
-### Bonus
-
-* Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
-
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URLs of the deployed applications
-
-* The URLs of the GitHub repositories
-
-- - -
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

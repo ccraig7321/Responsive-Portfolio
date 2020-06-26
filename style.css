@@ -31,6 +31,7 @@ img {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    opacity: .60;
 }
 
 .green-button h2{
@@ -111,7 +112,7 @@ nav.navbar{
 
 .footer a::before{
     font-size: 50px;
-    margin: 10px 20px;
+    margin: 10px 25px;
 }
 
 .fa:hover {
@@ -119,7 +120,7 @@ nav.navbar{
 }
 
 .green-button:hover{
-    opacity: 0.60;
+    opacity: 0.40;
 }
 
 .overlay:hover{
